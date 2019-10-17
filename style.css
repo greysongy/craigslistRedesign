@@ -1,24 +1,4 @@
-/* body {
-  height: 100vh;
-  margin: 0;
-  background: linear-gradient(purple, plum);
-  background-repeat: no-repeat;
-} */
-
-/* body:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: -250px;
-    width: 500px;
-    height: 300px;
-    background: linear-gradient(white, gray);
-    transform: skew(-82deg);
-  } */
-
   body {
-    /* background: linear-gradient(to right, purple, plum); */
     background: linear-gradient(to right, silver, white);
   }
 
@@ -28,7 +8,6 @@
 
   #headerText {
       font-size: 30px;
-      /* color: lightgray; */
       color: purple;
       font-weight: bold;
       font-family: 'Lobster', cursive;
@@ -41,7 +20,6 @@
   #skewedElement {
     position: relative;
     margin-top: -20px;
-    /* background: linear-gradient(to right, gray, white); */
     background: linear-gradient(to right, purple, plum);
       transform: skewY(-5deg);
       height: 100px
@@ -49,24 +27,18 @@
 
   .mainContainer {
       margin-top: 75px;
-      /* background: linear-gradient(to right, gray, white); */
       background: linear-gradient(to right, purple, plum);
   }
 
   .dropdown {
       margin: 25px 0px 25px 25px;
-      /* color: #BA55D3; */
   }
 
   .input-group {
       margin: 25px;
   }
 
-  .lowerContainer {
-  }
-
   .contentHolder {
-    /* background: linear-gradient(to right, gray, white); */
     background: linear-gradient(to right, purple, plum);
     width: 225px;
     border: black;
@@ -85,19 +57,3 @@
     font-weight: bold;
     font-family: 'Lobster', cursive;
   }
-
-  /* footer{
-    display: block;
-    text-align: center;
-    font-size: 0.75em;
-    bottom:0;
-    width: 100%;
-    height: 30px;
-    background: linear-gradient(to right, gray, white);
-    position: fixed;
-} */
-
-footer {
-    height: 50px;
-    background: linear-gradient(to right, gray, white);
-}
