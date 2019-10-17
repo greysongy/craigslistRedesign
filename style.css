@@ -18,7 +18,8 @@
   } */
 
   body {
-    background: linear-gradient(to right, purple, plum);
+    /* background: linear-gradient(to right, purple, plum); */
+    background: linear-gradient(to right, silver, white);
   }
 
   .roundedCorners {
@@ -27,7 +28,8 @@
 
   #headerText {
       font-size: 30px;
-      color: lightgray;
+      /* color: lightgray; */
+      color: purple;
       font-weight: bold;
       font-family: 'Lobster', cursive;
   }
@@ -37,15 +39,18 @@
   }
 
   #skewedElement {
+    position: relative;
     margin-top: -20px;
-    background: linear-gradient(to right, gray, white);
+    /* background: linear-gradient(to right, gray, white); */
+    background: linear-gradient(to right, purple, plum);
       transform: skewY(-5deg);
       height: 100px
   }
 
   .mainContainer {
       margin-top: 75px;
-      background: linear-gradient(to right, gray, white);
+      /* background: linear-gradient(to right, gray, white); */
+      background: linear-gradient(to right, purple, plum);
   }
 
   .dropdown {
@@ -61,7 +66,8 @@
   }
 
   .contentHolder {
-    background: linear-gradient(to right, gray, white);
+    /* background: linear-gradient(to right, gray, white); */
+    background: linear-gradient(to right, purple, plum);
     width: 225px;
     border: black;
     height: 150px;
